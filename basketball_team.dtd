@@ -1,0 +1,15 @@
+<!ELEMENT teams (team+)>
+
+<!ELEMENT team (name, coach, players)>
+<!ATTLIST team id ID #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT coach (#PCDATA)>
+<!ELEMENT players (player+)>
+
+<!ELEMENT player (name, position, number, age)>
+<!ATTLIST player id ID #REQUIRED>
+
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT age (#PCDATA)>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teams SYSTEM "basketball_team.dtd">
+
+<teams>
+    <team id="t01">
+        <name>Galactic Hoopers</name>
+        <coach>Alex Johnson</coach>
+        <players>
+            <player id="P01">
+                <name>Kevin Smith</name>
+                <position>Point Guard</position>
+                <number>7</number>
+                <age>25</age>
+            </player>
+            <player id="P02">
+                <name>Naira Lee</name>
+                <position>Shooting Guard</position>
+                <number>11</number>
+                <age>22</age>
+            </player>
+        </players>
+    </team>
+    <team id="t02">
+        <name>Cosmic Dunkers</name>
+        <coach>Emma Watson</coach>
+        <players>
+            <player id="P03">
+                <name>Santi Brown</name>
+                <position>Center</position>
+                <number>33</number>
+                <age>28</age>
+            </player>
+        </players>
+    </team>
+</teams>
